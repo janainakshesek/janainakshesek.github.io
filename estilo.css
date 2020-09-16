@@ -1,0 +1,240 @@
+html, body {
+    margin: 0;
+}
+header{
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    z-index: 10;
+    background-color: rgb(255, 255, 255, .8);
+    opacity: 100%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;  
+}
+a.color{
+    text-decoration:none;
+    color: #000000;
+}
+li {
+    float: left;
+    padding: 20 10 20 10; 
+    
+}
+li:hover {
+    background-color: #ffcfcc;
+}
+#logo {
+    width: 6.5%;
+    padding: .5% 1.5%;
+    position: absolute;
+    opacity: 100%;
+}
+#fundo {
+    background: url("img/empoderamento.jpg");
+    width: 100%;
+    height: 90%;
+    background-image: cover;
+    text-align: center;
+}
+#titulo {
+    text-align: center;
+    padding-top: 20%;
+    color: #000000;
+    text-shadow: #000000 .5px .5px;
+}
+#subtitulo {
+    text-align: center;
+    line-height: 1.25;
+}
+#link {
+    text-align: center;
+    border: solid #000000 2px;
+    color: #000000;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    bottom: 1.0vw;
+    border-radius: 20px;
+}
+#video {
+    padding: 5% 4%;
+}
+.descricao {
+    font-size: 25px;
+    padding-top: 5%;
+}
+.texto {
+    font-size: 20px;
+    padding-top: 0;
+    font-family: 'rubik', 'sans-serif';
+}
+.projeto {
+    background-color: #fde1d5;
+    height: 70%;
+}
+section {
+    padding: 20px;
+    float: left;
+}
+#objetivo {
+    font-size: 30px;
+    text-align: center;
+}
+.icon {
+    height: 15%;
+}
+.icon:hover{
+    background-color: #ffe5ef;
+    border-radius: 60px;
+    padding: 12px;
+}
+.centralizado {
+    text-align: center;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.tres {
+    width: 20%;
+}
+.quatro {
+    width: 14.5%;
+}
+.esquerda {
+    float: left;
+}
+.direita {
+    float: right;
+}
+.titulodireitos {
+    font-size: 22px;
+}
+#conquistas {
+    border-bottom: solid 1.5px #d3d3d3;
+    border-bottom-style: inset;
+    padding-bottom: .5%;
+    position: relative;
+    text-align: center;
+}
+.text {
+    text-align: justify;
+}
+.txt {
+    font-size: 20px;
+}
+.retangulo:hover {
+    border: solid 2px #d3d3d3;
+    border-radius: 10px;
+    width: 90%;
+    box-shadow: 2px 2px #d3d3d3;
+}
+.extitulo {
+    font-size: 25px;
+}
+.fonte {
+    font-size: 17.5px;
+}
+.tipofonte {
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#videosuper {
+    padding: 4% 6%;
+}
+#textfeminism {
+    padding-top: 50px;
+}
+#imgmaos {
+    width: 40%;
+    padding-left: 50%;
+}
+.imgsobre {
+    width: 70%;
+    height: auto;
+    padding: 10% 5%;
+}
+.fundo {
+    background-color: #fde1d5;
+}
+#videoonu {
+    padding-top: 10%;
+}
+footer {
+    background-color: #fde1d5;
+    float: left;
+    width: 100%;
+    height: 30%;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+.borda {
+    border-bottom: solid 1px #d3d3d3;
+}
+.imgnews {
+    width: 70%;
+    height: auto;
+}
+@media all and (max-width: 768px) {
+    header {
+        height: 7%;
+    }
+    #menu {
+        visibility: hidden;
+    }
+    #fundo {
+        width: 100%;
+        height: 50%;
+    }
+    #titulo {
+        font-size: 22px;
+        padding-top: 40%;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .coluna, .dois, .tres, .quatro, #especial {
+        display: block;
+        width: 100%;
+        padding: 0px;
+        float: none;
+        text-align: center;
+    }
+    #video  {
+        width: 90%;
+    }
+    #videosuper {
+        width: 90%;
+    }
+    #videoonu {
+        width: 90%;
+    }
+    #projeto { 
+        height: auto;
+    }
+    #logodiv {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 0px;
+    }
+    #logo {
+       margin-left: 0px;
+       width: 20%;
+       transform: translateX(-50%);
+        
+    }
+    #fundo {
+        width: 100%;
+    }
+    footer {
+        height: 40%;
+    }
+}
