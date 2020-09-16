@@ -185,7 +185,7 @@ footer {
 }
 @media all and (max-width: 768px) {
     header {
-        height: 7%;
+        height: 8%;
     }
     #menu {
         visibility: hidden;
